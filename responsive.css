@@ -1,0 +1,17 @@
+@media only screen and (max-width: 425px) {
+    .container{
+        height: 71.7vh;
+    }
+ 
+    .bottom{
+        height: 60px;
+    }
+
+    .fa{
+        font-size: 1.5rem;
+    }
+
+    #masterSongName{
+        font-size: 0.6rem;
+    }
+}

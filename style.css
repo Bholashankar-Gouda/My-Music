@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #282A3A;
+}
+
+#preload{
+   height: 100vh;
+   background:#fff url(Music_note.gif) no-repeat center;
+   width: 100%;
+   position: fixed;
+   z-index: 100;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Kanit";
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+.logo img{
+    width: 33px;
+    height: auto;
+    padding: 0 7px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+   min-height: 70vh;
+   color: white;
+   font-family: 'Satisfy', cursive;
+   display: flex;
+   margin: 20px auto;
+   width: 70%;
+   border-radius: 14px;
+   padding: 1.5rem;
+   background-image:url("https://www.emc-imc.org/fileadmin/_processed_/e/5/csm_thomas-kelley-78865-unsplash_d8f03abfad.jpg");
+}
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ProgressBar{
+    width: 75vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.icons i{
+    cursor: pointer;
+    padding-right: 0.5rem;
+}
+
+.songitems{
+    font-family: 'Roboto Mono', monospace;
+    height: 30px;
+    display: flex;
+    margin: 7px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songitems img{
+    border-radius: 50%;
+    width: 30px;
+    margin: 7px 0;
+}
+
+.playlist i{
+    cursor: pointer;
+}
+
+.SongInfo{
+    position: absolute;
+    left: 13vw;
+}
+
+.SongInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 5%;
+}
+
+/* .album_main{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 100px;
+} */
+
+/* #album{
+    position: absolute;
+    right: 0;
+} */
+
+.fa{
+    font-size: 2rem;
+}
